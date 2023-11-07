@@ -1,0 +1,40 @@
+4a 
+
+folder ==cmd
+1)npm init
+enter until description : give description
+enter enter and all
+then open vs code 
+new file-index.js
+import express module from command pront
+install globally-  npm install express --save
+node_module is created in vs code
+type in index.js-
+
+const express=require('express');
+const app=express();
+
+create new floder in vs code try part- public
+inside public create new file name index.html
+html: 5
+change name of the title to node js
+go to try folder
+inside public folder
+open and check the index.html file
+
+now some changes in index.js
+open index.js from vs code
+
+app.use(express.static('public'))
+app.listen(4000,()=>{
+    console.log("server is started");
+})
+
+go to command promp
+node index.js
+
+go to browser - localhost:4000
+
+now add your website in public folder
+
+
