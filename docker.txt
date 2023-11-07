@@ -1,0 +1,34 @@
+open cmp
+check docker version by=
+docker -v
+check images by=
+docker images
+check container=
+docker ps
+
+require image of open jdk
+on google docker hub website search open jdk
+copy the pull statement
+paste it in cmd
+again docker images
+docker run --name JAVA -it -d openjdk
+check which container is used
+docker vs
+now execute the container
+docker exec -it JAVA jshell
+
+sopln("hello");
+ int a=10
+int b=20
+sopln(a+b);
+ how to stop the running container
+docker ps
+/exit
+docker ps
+docker stop container id
+docker container rm container id
+docker ps
+docker images
+docker image prune
+
+
